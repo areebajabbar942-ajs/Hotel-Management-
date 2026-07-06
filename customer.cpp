@@ -1,3 +1,9 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <iomanip>   
+using namespace std;
+
 struct customer
 {
 	int custID;
@@ -8,6 +14,7 @@ struct customer
 	string readName;
 	string readPassport;
 };
+
 void WriteFor_Customers()
 {
 	customer C;
