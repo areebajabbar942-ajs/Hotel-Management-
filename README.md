@@ -1,4 +1,4 @@
-# Hotel-Management-
+ # Hotel-Management-System
 The Hotel Management System is a console-based application developed in C++ that automates the basic operations of a hotel. It allows users to manage rooms, customers, and bookings while storing all records in text files using file handling. The system also calculates bills based on room type, stay duration, meal services, air conditioning, and additional charges.
 
 This project demonstrates the practical implementation of C++ concepts including structures, functions, file handling, dynamic memory allocation, loops, conditional statements, and input validation.
@@ -17,6 +17,35 @@ Automatic room availability updates
 Hotel bill calculation
 File handling for permanent data storage
 User input validation and error handling
+
+## project structure
+├── main.cpp
+│   ├── Structures
+│   └── main()
+│
+├── customer.cpp
+│   ├── WriteFor_Customers()
+│   ├── ReadFrom_Customers()
+│   └── Search_Customer()
+│
+├── rooms.cpp
+│   ├── WriteFor_Rooms()
+│   ├── ReadFrom_Rooms()
+│   ├── search_rooms()
+│   ├── updateRoom()
+│   ├── cancel_room()
+│   └── checkAvailability()
+│
+├── booking.cpp
+│   ├── getDaysInMonth()
+│   ├── MakeBooking()
+│   ├── check_bill()
+│   ├── viewbookings()
+│   └── cancel_booking()
+│
+├── Customers.txt
+├── Rooms.txt
+├── Bookings.txt
 
 ## Concepts Used
 - Structures
