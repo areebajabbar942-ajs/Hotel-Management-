@@ -18,7 +18,11 @@ Hotel bill calculation
 File handling for permanent data storage
 User input validation and error handling
 
-## project structure
+## File Structure
+
+```text
+Hotel-Management-System
+│
 ├── main.cpp
 │   ├── Structures
 │   └── main()
@@ -46,6 +50,8 @@ User input validation and error handling
 ├── Customers.txt
 ├── Rooms.txt
 ├── Bookings.txt
+└── README.md
+```
 
 ## Concepts Used
 - Structures
