@@ -5,17 +5,17 @@ This project demonstrates the practical implementation of C++ concepts including
 
 Features:
 <br>
-Add new rooms
-View all available rooms
-Search rooms based on customer preferences
-Add and manage customer records
-Search customers by ID
-Make room bookings
-View booking details
-Cancel bookings
-Automatic room availability updates
-Hotel bill calculation
-File handling for permanent data storage
+Add new rooms,
+View all available rooms,
+Search rooms based on customer preferences,
+Add and manage customer records,
+Search customers by ID,
+Make room bookings,
+View booking details,
+Cancel bookings,
+Automatic room availability updates,
+Hotel bill calculation,
+File handling for permanent data storage,
 User input validation and error handling
 
 ## File Structure
